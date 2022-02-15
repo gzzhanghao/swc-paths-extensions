@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // Type checking
+    "strict": true,
+
+    // Modules
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "paths": {
+      // Note: all paths are relative to baseUrl
+      "@modules/*": ["./modules/*"]
+    },
+
+    // Language & Environment
+    "target": "ES2020",
+
+    // Emit
+    "noEmit": true,
+    "declaration": false,
+    "downlevelIteration": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

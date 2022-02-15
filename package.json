@@ -1,0 +1,15 @@
+{
+  "name": "swc-paths-extensions",
+  "version": "0.0.0",
+  "module": "./build/main.js",
+  "author": "François Best",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "swc ./src --out-dir ./build"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.140"
+  }
+}
