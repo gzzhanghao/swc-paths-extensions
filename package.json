@@ -6,10 +6,10 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "build": "swc ./src --out-dir ./build"
+    "build": "swc ./src -Dd ./build"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.55",
-    "@swc/core": "^1.2.140"
+    "@swc/core": "^1.2.241"
   }
 }
