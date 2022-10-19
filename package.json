@@ -9,7 +9,7 @@
     "build": "swc ./src -Dd ./build"
   },
   "devDependencies": {
-    "@swc/cli": "^0.1.55",
-    "@swc/core": "^1.2.241"
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.9"
   }
 }
